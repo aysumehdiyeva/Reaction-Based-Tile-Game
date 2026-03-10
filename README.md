@@ -44,12 +44,15 @@ The goal of the game is to **click black tiles as quickly as possible before tim
 ---
 
 ## 📂 Project Structure
+
+```
 project-folder/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── assets/
+```
 
 ---
 
