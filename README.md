@@ -44,3 +44,20 @@ The goal of the game is to **click black tiles as quickly as possible before tim
 ---
 
 ## 📂 Project Structure
+project-folder/
+│
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository
+git clone https://github.com/aysumehdiyeva/Reaction-Based-Tile-Game.git
+
+2. Open the project folder.
+
+3. Open **index.html** in your browser.
