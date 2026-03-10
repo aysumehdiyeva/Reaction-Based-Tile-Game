@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tile Clicker Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="cover-page">
+    <div id="members">
+      <h1 style="font-weight: lighter;">Project Members</h1>
+
+      <div class="member">
+        <img src="members/member1.png" alt="Profile 1">
+        <ul style="list-style-type: none;">
+            <li><strong>Aysu Mehdiyeva</strong></li>
+            <li>Section: 01</li>
+            <li>22401088</li>
+        </ul>
+      </div>
+
+      <div class="member">
+        <img src="members/member2.png" alt="Profile 2">
+        <ul style="list-style-type: none;">
+            <li><strong>Yusif Mammadli</strong></li>
+            <li>Section: 03</li>
+            <li>22301537</li>
+        </ul>
+      </div>
+
+      <div class="member">
+        <img src="members/member3.png" alt="Profile 3">
+        <ul style="list-style-type: none;">
+            <li><strong>Arzu Mehdiyeva</strong></li>
+            <li>Section: 04</li>
+            <li>22130102401</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="countdown" class="centered hidden"></div>
+
+  <div id="game" class="hidden">
+    <div id="top-bar">
+      <div>HI-SCORE: <span id="hi-score">0</span></div>
+      <div>SCORE: <span id="current-score">0</span></div>
+      <div>TIME: <span id="timer">10</span></div>
+    </div>
+
+    <div id="board"></div>
+
+    <div id="message">Tap the black tiles!</div>
+
+    <div id="point-bar-container">
+      <div id="point-bar"></div>
+    </div>
+
+    <div id="end-message" class="hidden">
+      <h2 id="final-msg"></h2>
+      <p id="restart-msg">Press F5 to play again.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
